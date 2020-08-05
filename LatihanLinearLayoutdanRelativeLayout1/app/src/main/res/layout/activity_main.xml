@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e4e6e7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#6221EA"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/ava"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Fahru Rozi"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="345dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fff">
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Nama"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/nama"
+            android:layout_marginLeft="15dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/ulangpass"
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/pass"
+            android:layout_marginLeft="15dp"
+            android:hint="Ulang Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/daftar"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ulangpass"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="10dp"
+            android:background="#FF6600"
+            android:text="Daftar"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
