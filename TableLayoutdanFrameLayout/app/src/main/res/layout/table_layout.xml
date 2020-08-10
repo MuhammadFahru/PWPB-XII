@@ -51,6 +51,16 @@
             android:text="X"
             android:padding="3dip" />
         <TextView
+            android:text="Import..."
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow
+        android:background="#ffff00" >
+        <TextView
+            android:text="X"
+            android:padding="3dip" />
+        <TextView
             android:text="Export..."
             android:padding="3dip" />
         <TextView

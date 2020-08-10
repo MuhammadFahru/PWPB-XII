@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
         // setContentView(R.layout.table_layout);
 
         // Menampilkan Frame Layout 1
-         setContentView(R.layout.frame_layout1);
+        // setContentView(R.layout.frame_layout1);
 
         // Menampilkan Frame Layout 2
-        // setContentView(R.layout.frame_layout2);
+        setContentView(R.layout.frame_layout2);
     }
 }
