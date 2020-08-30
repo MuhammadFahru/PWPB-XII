@@ -28,6 +28,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/holo_orange_light"
             android:layout_gravity="right"/>
+
     </FrameLayout>
     <Button
         android:id="@+id/tombol_login"
